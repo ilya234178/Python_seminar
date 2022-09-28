@@ -4,8 +4,8 @@
 a = int(input('Введите число 1 :'))
 b = int(input('Введите число 2 :'))
 if a*a == b:
-    print('да')
+    print(f'{a},{b} -> да')
 elif b*b == a:
-    print('да')
+     print(f'{a},{b} -> да')
 else:
-    print('нет')
+     print(f'{a},{b} -> нет')
