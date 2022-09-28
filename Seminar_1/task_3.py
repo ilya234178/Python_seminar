@@ -6,8 +6,10 @@ from tkinter import N
 
 N = int(input('Введите число :'))
 
-num = -N
-while (num <= N):
-    print(num , end = " ")
-    num += 1
+# num = -N
+# while (num <= N):
+#     print(num , end = " ")
+#     num += 1
 
+for i in range(-N , N+1):
+    print(i, end = " ")
