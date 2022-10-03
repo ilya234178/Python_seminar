@@ -10,9 +10,7 @@ s = input('Введите первую строку: ')
 s_1 = input('Введите вторую строку: ')
 
 if len(s) > len(s_1):
- n = len(s_1)
-else:
- n = len(s)
+ s , s_1 = s_1 , s
 
 
 count = 0
