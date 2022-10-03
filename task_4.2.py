@@ -26,3 +26,8 @@ str = input('введите строку : ')
 price = len(str) * 60
 
 print(f'Строка стоит : {price // 100} p. {price % 100} kop.')
+
+# a=input()
+# b=(len(a)*60)//100
+# c=(len(a)*60)-b*100
+# print(b,"р.",c,"коп.")
