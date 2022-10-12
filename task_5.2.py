@@ -23,6 +23,6 @@
 # Sample Output 2:
 # 3
 
-a = input()
+a = input('Введите текст: ')
 c = a.split()
 print(len(c))
